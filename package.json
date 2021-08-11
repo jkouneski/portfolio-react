@@ -1,6 +1,6 @@
 {
   "homepage": "https://jkouneski.github.io/portfolio-react",
-  "name": "jkouneski-react-portfolio",
+  "name": "portfolio-react",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
