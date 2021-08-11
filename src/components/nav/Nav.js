@@ -1,4 +1,5 @@
 import React from "react";
+import "./Nav.css";
 
 import { Link } from 'react-router-dom';
 
@@ -25,17 +26,17 @@ const Nav = () => {
               id="navbarText"
             >
               <ul className="nav navbar-nav float-right">
-              <li className="nav-item">
+              <li className="nav-item lead">
                   <Link to='/about' className="nav-link">
                     About
                   </Link>
                 </li>
-                <li className="nav-item">
+                <li className="nav-item lead">
                   <Link to='/portfolio' className="nav-link">
                     Portfolio
                   </Link>
                 </li>
-                <li className="nav-item">
+                <li className="nav-item lead">
                   <Link to='/contact' className="nav-link">
                     Conatct
                   </Link>
