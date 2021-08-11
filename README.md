@@ -3,6 +3,8 @@
 ## Description
 Portfolio build using react. Showcase of past projects with my bio and a "Contact Me" form.
 
+[Deployed Site](https://jkouneski.github.io/portfolio-react/)
+
 ## Install
 
 1. Clone this repo to your local machine
