@@ -1,0 +1,10 @@
+.portfolio-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.portfolio-links > a {
+    margin-left: 10px;
+    margin-right: 10px;
+}
