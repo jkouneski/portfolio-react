@@ -1,9 +1,7 @@
 import React from "react";
 
-
-
 const Contact = () => {
-    return (
+  return (
     <div className="jumbotron">
       <main className="container mt-5">
         <div className="row">
@@ -14,9 +12,7 @@ const Contact = () => {
             <div className="content">
               <form>
                 <div className="form-group">
-                  <label for="nameInput" >
-                    Name
-                  </label>
+                  <label for="nameInput">Name</label>
                   <input
                     type="text"
                     className="form-control w-50"
@@ -25,9 +21,7 @@ const Contact = () => {
                   />
                 </div>
                 <div className="form-group">
-                  <label for="emailInput" >
-                    Email
-                  </label>
+                  <label for="emailInput">Email</label>
                   <input
                     type="email"
                     className="form-control w-50"
@@ -35,13 +29,13 @@ const Contact = () => {
                     aria-describedby="emailHelp"
                     placeholder="Email"
                   />
-                  <small id="emailHelp" className="form-text text-muted">
-                  </small>
+                  <small
+                    id="emailHelp"
+                    className="form-text text-muted"
+                  ></small>
                 </div>
                 <div className="form-group">
-                  <label for="messageInput">
-                    Message
-                  </label>
+                  <label for="messageInput">Message</label>
                   <textarea
                     className="form-control w-75"
                     id="messageInput"
@@ -59,9 +53,7 @@ const Contact = () => {
       </main>
       <br />
     </div>
-    
-        
-    );
+  );
 };
 
 export default Contact;

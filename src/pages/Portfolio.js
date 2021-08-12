@@ -7,8 +7,8 @@ import pawGenScreenshot from "../assets/images/pwGen.png";
 import quizScreenshot from "../assets/images/quiz.png";
 
 const Portfolio = () => {
-    return (
-      <div className="portfolioContainer">
+  return (
+    <div className="portfolioContainer">
       <main className="container">
         <div className="row">
           <section className="col-md-9">
@@ -62,4 +62,3 @@ const Portfolio = () => {
 };
 
 export default Portfolio;
-
